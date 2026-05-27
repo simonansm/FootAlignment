@@ -6,17 +6,6 @@ Lower-limb alignment influences how forces are distributed during standing and w
 <img width="3033" height="1660" alt="graphical_abstract_v3" src="https://github.com/user-attachments/assets/c219e4ed-5fc1-49f7-bc8c-a5f2b6276206" />
 
 
-## Overview
-
-This project implements deep learning models that classify foot alignment based on:
-- **Plantar pressure images**: Computer vision features extracted from foot pressure scans
-- **Morphological measurements**: 16 quantitative measurements of foot anatomy
-
-The system focuses on three foot regions:
-- **Arch**: Classification of arch height/alignment
-- **Calf**: Classification of calf alignment  
-- **Heel**: Classification of heel alignment
-
 
 
 ## Project Structure
