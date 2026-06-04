@@ -16,7 +16,7 @@ class ImageMeasurementDataset(Dataset):
         
         # Numerical feature columns
         self.feature_cols = [
-            'gender', 'side', 'len_foot', 'len_arch', 'len_mm_med', 'len_mm_lat',
+            'len_foot', 'len_arch', 'len_mm_med', 'len_mm_lat',
             'len_latdors', 'len_arch_lat', 'len_arch_med', 'wid_fore', 'wid_heel',
             'wid_instep', 'wid_meta',  'arch_med', 'arch_reg', 'arch_lat',
             'arch_index', 'pron_angle'
