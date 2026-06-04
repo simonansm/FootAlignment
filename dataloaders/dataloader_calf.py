@@ -28,6 +28,7 @@ class ImageMeasurementDataset(Dataset):
 
     def __getitem__(self, idx):
         row = self.data.iloc[idx]
+
         
         # Extract image basename
         basename = row['pdf'].replace('_Report.pdf', '')
