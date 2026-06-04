@@ -18,8 +18,8 @@ class ImageMeasurementDataset(Dataset):
         self.feature_cols = [
             'gender', 'side', 'len_foot', 'len_arch', 'len_mm_med', 'len_mm_lat',
             'len_latdors', 'len_arch_lat', 'len_arch_med', 'wid_fore', 'wid_heel',
-            'wid_instep', 'wid_meta', 'size_eu', 'arch_med', 'arch_reg', 'arch_lat',
-            'arch_index', 'pron_angle'
+            'wid_instep', 'wid_meta', 'arch_med', 'arch_reg', 'arch_lat',
+            'pron_angle'
         ]
         self.label_col = 'GT_label_arch'
 
